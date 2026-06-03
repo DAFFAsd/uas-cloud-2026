@@ -1,0 +1,1 @@
+daffa ALL=(root) NOPASSWD: /usr/share/cloudstack-common/scripts/util/keystore-setup, /usr/share/cloudstack-common/scripts/util/keystore-cert-import, /usr/bin/cloudstack-setup-agent, /usr/bin/systemctl restart cloudstack-agent, /usr/bin/systemctl stop cloudstack-agent, /usr/bin/systemctl start cloudstack-agent, /usr/bin/systemctl enable cloudstack-agent

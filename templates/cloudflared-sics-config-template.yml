@@ -1,0 +1,27 @@
+# Cloudflare Tunnel template for the SICS CloudStack topology.
+# Replace <TUNNEL_UUID>, <DOMAIN>, and credentials-file after the tunnel is created.
+tunnel: <TUNNEL_UUID>
+credentials-file: /home/daffa/.cloudflared/<TUNNEL_UUID>.json
+
+ingress:
+  # Public website through HAProxy on the main host.
+  - hostname: sics.<DOMAIN>
+    service: http://localhost:80
+
+  # SSH to the main host cloudstack-lab.local.
+  - hostname: ssh-lab.<DOMAIN>
+    service: ssh://localhost:22
+
+  # SSH to the remote CloudStack agent host.
+  - hostname: ssh-agent2.<DOMAIN>
+    service: ssh://192.168.1.10:22
+
+  # Direct SSH to the local CloudStack VM.
+  - hostname: ssh-vm-local.<DOMAIN>
+    service: ssh://172.16.10.101:22
+
+  # Direct SSH to the remote CloudStack VM.
+  - hostname: ssh-vm-remote.<DOMAIN>
+    service: ssh://172.16.20.52:22
+
+  - service: http_status:404
