@@ -2417,5 +2417,5 @@ Remote KVM host is operational in RemoteWiFiZone.
 SICS Website runs on two CloudStack VMs.
 HAProxy routes primary traffic to remote VM and fails over to local VM.
 Cloudflare Tunnel exposes website and SSH without port forwarding.
-Documentation includes commands, configuration, debug notes, credentials, and screenshot placeholders.
+Documentation includes commands, configuration, debug notes, credentials, and screenshots for proof of work.
 ```
