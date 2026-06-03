@@ -94,49 +94,99 @@ Active website backend: remote-cloudstack
 
 ---
 
-## Screenshot Checklist
+## Screenshots Checklist (Proof of Work)
 
-Put manual screenshots in a folder of your choice, for example `screenshots/`. The following placeholders can be used when preparing the report.
+### CloudStack Dashboard  ✅
 
-### CloudStack Dashboard
+#### 1. Cloudstack Login Screen (Accessed from Internet)
 
-```markdown
-![CloudStack Login](screenshots/cloudstack-login.png)
-![CloudStack Dashboard Overview](screenshots/cloudstack-dashboard-overview.png)
-![CloudStack Zones](screenshots/cloudstack-zones-labzone-remotewifizone.png)
-![CloudStack Hosts](screenshots/cloudstack-hosts-local-remote-up.png)
-![CloudStack System VMs](screenshots/cloudstack-system-vms-running-up.png)
-![CloudStack Instances](screenshots/cloudstack-sics-instances-running.png)
-![CloudStack Templates](screenshots/cloudstack-templates-download-complete.png)
-![CloudStack Networks](screenshots/cloudstack-networks-basic-zones.png)
-```
+- From PC
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/9d75a875-077a-40e6-a0cb-ecbdca9cd5bd" />
 
-### Cloudflare Dashboard
+- From Smartphone
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/796d0ce6-230b-443a-86cc-7e3687e45628" />
 
-```markdown
-![Cloudflare Tunnel Overview](screenshots/cloudflare-tunnel-overview.png)
-![Cloudflare Connector Active](screenshots/cloudflare-connector-active.png)
-![Cloudflare Public Hostnames](screenshots/cloudflare-public-hostnames.png)
-![Cloudflare Access Policy SSH](screenshots/cloudflare-access-policy-ssh.png)
-```
+#### 2. Cloudstack Dashboard Overview
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/a7c7d516-ee31-41a2-9223-aadb0bf5301d" />
 
-### Website and SSH Verification
+#### 3. Cloudstack Zone List
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/a301604c-81db-439a-bfc3-2451881ef415" />
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/cf038f68-8ddd-4e4a-b748-adc675cf54e4" />
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/82d7708e-710c-4fbe-9de3-8eb59358bf40" />
 
-```markdown
-![SICS Website Public](screenshots/sics-public-website.png)
-![SICS Website Header Check](screenshots/sics-x-sics-node-remote.png)
-![HAProxy Failover Remote Down](screenshots/haproxy-failover-local-backup.png)
-![SSH Cloudflare Host Main](screenshots/ssh-device0-cloudflare.png)
-![SSH Cloudflare VM Main](screenshots/ssh-vm-main-cloudflare.png)
-```
 
-### Host Terminal Evidence
 
-```markdown
-![Services Active](screenshots/systemctl-services-active.png)
-![Remote Virsh List](screenshots/remote-virsh-list-running.png)
-![Cloudflared Logs](screenshots/cloudflared-registered-connections.png)
-```
+#### 4. Cloudstack Host List
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/6b5be31a-0a62-4832-8b95-92abcbce85b3" />
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/c85ba67c-f675-45c3-bb09-c656483dfe0b" />
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/619c0684-f26a-4f84-a266-525b471afddd" />
+
+
+#### 5. Cloudstack System VM List
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/d4d6f829-266c-4bed-a11d-000cac6fa56f" />
+
+#### 6. Cloudstack Instance List
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/3c27890a-ff04-48cf-b6c3-614b30ab9abd" />
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/61379393-6f08-4e1d-9e9a-c2f505c1908d" />
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/2554fa0d-6f00-4653-a4a7-adf68af7b1ac" />
+
+#### 7. Cloudstack Template for Deployment List
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/7f3a247c-d4e7-4f8f-8a70-9d3c1acbcb64" />
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/48b5e93c-8c8b-4465-850b-67b9effdcf89" />
+
+#### 8. Cloudstack Network List
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/f9dd24ff-86a7-46b3-9a6c-f501f95d8c8e" />
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/0e87cbbd-1a8e-467f-ace3-83a590dbb735" />
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/d8ba3f2a-5380-44dc-8f54-e3de429dcc54" />
+
+
+
+### Cloudflare Dashboard  ✅
+
+#### 1. Cloudstack Tunnel Overview
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/d5c157d3-57fa-487f-bc11-c3b70ff887d8" />
+
+#### 2. Cloudstack Active Connector
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/b2927ed8-3868-457f-90dd-cdeed6d53f2a" />
+
+#### 3. Cloudstack DNS Config
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/93533bb3-478c-46e8-bb34-4ec319c14d26" />
+
+
+
+
+### Website and SSH Verification  ✅
+
+#### 1. Website Accessed From Internet
+
+- On PC
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/73d9ce34-ce79-447c-8072-7cf08ee76981" />
+
+- On Smartphone
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/989b6162-1f1a-437c-95a7-bbcf2f35b825" />
+
+- Resource Usage Log on Cloudstack
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/60a385dc-0785-4f7a-8eeb-8f59c389ba9d" />
+
+#### 2. SSH using public domain
+<img width="2560" height="1598" alt="image" src="https://github.com/user-attachments/assets/b8ce067d-dbb2-4eb3-a948-0281a6c33f29" />
+<img width="2560" height="1598" alt="image" src="https://github.com/user-attachments/assets/fa801f94-1c91-4608-b1f9-5409bc18c7ba" />
+
+
+
+
+### Host Terminal Evidence  ✅
+
+#### 1. Active Services
+<img width="689" height="363" alt="image" src="https://github.com/user-attachments/assets/cb03f869-c4a7-483d-b55e-8a3f9920b8d8" />
+
+#### 2. Remote Virsh List
+<img width="1097" height="229" alt="image" src="https://github.com/user-attachments/assets/44e2eaf3-2a7c-417a-be0e-1e2f73a4287f" />
+
+#### 3. Cloudflared Logs
+<img width="2411" height="250" alt="image" src="https://github.com/user-attachments/assets/deac4677-77d7-4e92-8fad-2c7c4df318bd" />
+
+
 
 ---
 
@@ -1527,6 +1577,272 @@ ssh-vm-main-ok
 Host ssh-device0.daffahub.com ssh-device2.daffahub.com ssh-vm-backup.daffahub.com ssh-vm-main.daffahub.com
   ProxyCommand /usr/local/bin/cloudflared access ssh --hostname %h
 ```
+
+
+### Cloudflare Browser SSH Access
+
+Cloudflare Tunnel was also used for browser-based SSH access. This allows SSH access from any browser without installing `cloudflared` on the client device.
+
+Browser SSH target hostnames:
+
+```text
+ssh-device0.daffahub.com   -> SSH localhost:22
+ssh-device2.daffahub.com   -> SSH 192.168.1.10:22
+ssh-vm-backup.daffahub.com -> SSH 172.16.10.101:22
+ssh-vm-main.daffahub.com   -> SSH 172.16.20.52:22
+````
+
+Browser access URLs:
+
+```text
+https://ssh-device0.daffahub.com
+https://ssh-device2.daffahub.com
+https://ssh-vm-backup.daffahub.com
+https://ssh-vm-main.daffahub.com
+```
+
+Cloudflare Zero Trust configuration:
+
+```text
+Zero Trust Dashboard
+-> Access
+-> Applications
+-> Self-hosted application
+-> Domain: each SSH hostname
+-> Enable browser-rendered SSH
+-> Add Access policy for allowed users
+```
+
+> [!IMPORTANT]
+> Browser SSH is different from terminal SSH through `cloudflared access ssh`. Terminal SSH still needs the client-side `ProxyCommand`. Browser SSH only needs a web browser, but it must be enabled through Cloudflare Access Application settings.
+
+#### Browser SSH Login Users
+
+```text
+ssh-device0.daffahub.com:
+  Username: daffa
+  Authentication: password
+
+ssh-device2.daffahub.com:
+  Username: mate
+  Authentication: password
+
+ssh-vm-backup.daffahub.com:
+  Username: ubuntu
+  Authentication: password enabled for browser SSH
+
+ssh-vm-main.daffahub.com:
+  Username: ubuntu
+  Authentication: password enabled for browser SSH
+```
+
+#### VM SSH Password Login Adjustment
+
+The CloudStack Ubuntu VMs originally used SSH key-only login:
+
+```text
+User: ubuntu
+SSH key: /home/daffa/.ssh/sics_cloudstack_ed25519
+```
+
+For browser-based SSH testing, password login was enabled on both VM backends.
+
+VM backup:
+
+```bash
+ssh -i /home/daffa/.ssh/sics_cloudstack_ed25519 ubuntu@172.16.10.101
+```
+
+VM main:
+
+```bash
+ssh -i /home/daffa/.ssh/sics_cloudstack_ed25519 ubuntu@172.16.20.52
+```
+
+Commands applied inside each VM:
+
+```bash
+sudo passwd ubuntu
+
+sudo rm -f /etc/ssh/sshd_config.d/99-cloudflare-browser-ssh.conf
+
+sudo tee /etc/ssh/sshd_config.d/00-cloudflare-browser-ssh.conf >/dev/null <<'EOF'
+PasswordAuthentication yes
+KbdInteractiveAuthentication yes
+PubkeyAuthentication yes
+PermitRootLogin no
+EOF
+
+sudo sshd -t
+sudo systemctl restart ssh
+```
+
+Validation inside each VM:
+
+```bash
+sudo sshd -T | grep -E 'passwordauthentication|kbdinteractiveauthentication|pubkeyauthentication'
+```
+
+Expected result:
+
+```text
+pubkeyauthentication yes
+passwordauthentication yes
+kbdinteractiveauthentication yes
+```
+
+Reason for using `00-cloudflare-browser-ssh.conf`:
+
+```text
+Ubuntu cloud images may include /etc/ssh/sshd_config.d/60-cloudimg-settings.conf
+with PasswordAuthentication no. In this lab, the effective sshd config still showed
+passwordauthentication no when the override file was named 99-cloudflare-browser-ssh.conf.
+Using 00-cloudflare-browser-ssh.conf made the intended setting effective.
+```
+
+Password SSH test from the main host:
+
+```bash
+ssh -o PubkeyAuthentication=no \
+  -o PreferredAuthentications=password \
+  ubuntu@172.16.10.101
+```
+
+```bash
+ssh -o PubkeyAuthentication=no \
+  -o PreferredAuthentications=password \
+  ubuntu@172.16.20.52
+```
+
+Expected browser SSH result:
+
+```text
+ssh-device0.daffahub.com   -> login as daffa
+ssh-device2.daffahub.com   -> login as mate
+ssh-vm-backup.daffahub.com -> login as ubuntu
+ssh-vm-main.daffahub.com   -> login as ubuntu
+```
+
+> [!WARNING]
+> Password-based SSH was enabled only to make browser SSH practical for the lab demonstration. For a more secure setup, use Cloudflare Access policies, rotate lab passwords, restrict allowed emails, and consider Cloudflare short-lived SSH certificates instead of long-lived passwords.
+
+````
+
+Kalau mau insert lewat command langsung ke `README.md`, pakai ini:
+
+```bash
+python3 - <<'PY'
+from pathlib import Path
+
+p = Path("README.md")
+s = p.read_text()
+
+section = r'''
+### Cloudflare Browser SSH Access
+
+Cloudflare Tunnel was also used for browser-based SSH access. This allows SSH access from any browser without installing `cloudflared` on the client device.
+
+Browser SSH target hostnames:
+
+```text
+ssh-device0.daffahub.com   -> SSH localhost:22
+ssh-device2.daffahub.com   -> SSH 192.168.1.10:22
+ssh-vm-backup.daffahub.com -> SSH 172.16.10.101:22
+ssh-vm-main.daffahub.com   -> SSH 172.16.20.52:22
+````
+
+Browser access URLs:
+
+```text
+https://ssh-device0.daffahub.com
+https://ssh-device2.daffahub.com
+https://ssh-vm-backup.daffahub.com
+https://ssh-vm-main.daffahub.com
+```
+
+Cloudflare Zero Trust configuration:
+
+```text
+Zero Trust Dashboard
+-> Access
+-> Applications
+-> Self-hosted application
+-> Domain: each SSH hostname
+-> Enable browser-rendered SSH
+-> Add Access policy for allowed users
+```
+
+> [!IMPORTANT]
+> Browser SSH is different from terminal SSH through `cloudflared access ssh`. Terminal SSH still needs the client-side `ProxyCommand`. Browser SSH only needs a web browser, but it must be enabled through Cloudflare Access Application settings.
+
+#### Browser SSH Login Users
+
+```text
+ssh-device0.daffahub.com:
+  Username: daffa
+  Authentication: password
+
+ssh-device2.daffahub.com:
+  Username: mate
+  Authentication: password
+
+ssh-vm-backup.daffahub.com:
+  Username: ubuntu
+  Authentication: password enabled for browser SSH
+
+ssh-vm-main.daffahub.com:
+  Username: ubuntu
+  Authentication: password enabled for browser SSH
+```
+
+#### VM SSH Password Login Adjustment
+
+The CloudStack Ubuntu VMs originally used SSH key-only login:
+
+```text
+User: ubuntu
+SSH key: /home/daffa/.ssh/sics_cloudstack_ed25519
+```
+
+For browser-based SSH testing, password login was enabled on both VM backends.
+
+Commands applied inside each VM:
+
+```bash
+sudo passwd ubuntu
+
+sudo rm -f /etc/ssh/sshd_config.d/99-cloudflare-browser-ssh.conf
+
+sudo tee /etc/ssh/sshd_config.d/00-cloudflare-browser-ssh.conf >/dev/null <<'EOF'
+PasswordAuthentication yes
+KbdInteractiveAuthentication yes
+PubkeyAuthentication yes
+PermitRootLogin no
+EOF
+
+sudo sshd -t
+sudo systemctl restart ssh
+```
+
+Validation inside each VM:
+
+```bash
+sudo sshd -T | grep -E 'passwordauthentication|kbdinteractiveauthentication|pubkeyauthentication'
+```
+
+Expected result:
+
+```text
+pubkeyauthentication yes
+passwordauthentication yes
+kbdinteractiveauthentication yes
+```
+
+> [!WARNING]
+> Password-based SSH was enabled only to make browser SSH practical for the lab demonstration. For a more secure setup, use Cloudflare Access policies, rotate lab passwords, restrict allowed emails, and consider Cloudflare short-lived SSH certificates instead of long-lived passwords.
+> '''
+
+
 
 ### Locally-Managed Template
 
